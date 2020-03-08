@@ -1,0 +1,11 @@
+.footer-text {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.footer-update-text {
+  padding: 20px;
+  text-align: left;
+  width: 250px;
+}

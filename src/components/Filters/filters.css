@@ -1,0 +1,36 @@
+.tagLinks ul {
+  display: flex;
+  justify-content: normal;
+  flex-wrap: wrap;
+}
+
+.tagLinks .button {
+  background: #76b3fa;
+  border-radius: 100px;
+  padding: 10px 10px;
+  font-size: 1em;
+  margin: 0 15px 20px;
+  width: 100px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tagLinks .button a {
+  text-decoration: none;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Hover state animation applied here */
+.tagLinks .button:hover {
+  -webkit-animation: hover 1200ms linear 2 alternate;
+  animation: hover 1200ms linear 2 alternate;
+}
+
+/* Active state animation applied here */
+.tagLinks .button:active {
+  -webkit-animation: active 1200ms ease 1 alternate;
+  animation: active 1200ms ease 1 alternate;
+  background: #5f9be0;
+}
