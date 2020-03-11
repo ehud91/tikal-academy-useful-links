@@ -22,6 +22,10 @@
   cursor: pointer;
 }
 
+.tagLinks .current {
+  background: #4b0082;
+}
+
 /* Hover state animation applied here */
 .tagLinks .button:hover {
   -webkit-animation: hover 1200ms linear 2 alternate;

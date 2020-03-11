@@ -24,6 +24,7 @@
   padding-left: 3.5%;
   color: coral;
   font-size: 14px;
+  word-wrap: break-word;
 }
 
 .link-item .a-link {
@@ -47,4 +48,14 @@
 .link-item .desc-info {
   color: darkcyan;
   font-size: 12px;
+}
+
+.link-item .desc-tag {
+  color: #33226e;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+.link-item .desc-tag-title {
+  color: darkslategrey;
+  font-size: 16px;
 }

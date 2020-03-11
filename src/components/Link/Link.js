@@ -5,7 +5,7 @@ import "./link.css";
  * Display Links component
  */
 const LinkDisplay = info => {
-  const { id, url, title, desc } = info;
+  const { id, url, title, desc, tag } = info;
   return (
     <div key={id} className="link-item">
       <div key={id}>
@@ -34,6 +34,15 @@ const LinkDisplay = info => {
             <br />
           </span>
           <span className="desc-info">{desc}</span>
+        </div>
+        <div style={{ width: "50%" }}>
+          <br />
+          <span className="desc-tag-title">
+            <b>Tag</b>
+          </span>
+          <br />
+          <br />
+          <span className="desc-tag">{tag}</span>
         </div>
       </div>
     </div>

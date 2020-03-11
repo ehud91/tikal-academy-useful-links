@@ -22,11 +22,11 @@ export default function App() {
       <Header source={Source} handleClick={clickbtn} />
       {tag &&
         Source.filter(src => src.tag === "#" + tag).map((src, ind) => {
-          return Link(ind, src.url, src.desc, src.title);
+          return Link(ind, src.url, src.desc, src.title, src.tag);
         })}
       {!tag &&
         Source.map((src, ind) => {
-          return Link(ind, src.url, src.desc, src.title);
+          return Link(ind, src.url, src.desc, src.title, src.tag);
         })}
       <Footer />
     </div>

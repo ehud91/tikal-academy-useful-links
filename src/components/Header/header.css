@@ -2,3 +2,16 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.header .link-count-desc {
+  color: #a0c25b;
+  font-size: 15px;
+  display: flex;
+  margin: 0px 60px;
+}
+
+.header .link-count-desc .link-count {
+  color: #b89c56;
+  font-size: 16px;
+  font-weight: bold;
+}

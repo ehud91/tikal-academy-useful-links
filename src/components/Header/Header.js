@@ -13,6 +13,14 @@ const HeaderDisplay = ({ source, handleClick }) => {
       <div>
         <Filters source={source} clickTag={handleClick} />
       </div>
+      <div className="header ">
+        <span className="link-count-desc">
+          Currently updated to:{" "}
+          <span className="link-count link-count">
+            &nbsp;{source.length} links
+          </span>
+        </span>
+      </div>
     </div>
   );
 };
